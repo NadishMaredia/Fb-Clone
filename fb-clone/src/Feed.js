@@ -1,6 +1,7 @@
 import React from 'react'
 import './Feed.css';
 import StoryReed from './StoryReed';
+import MessageSender from './MessageSender';
 
 function Feed() {
     return (
@@ -8,6 +9,7 @@ function Feed() {
             {/* story */}
             <StoryReed />
             {/* MessageSender */}
+            <MessageSender />
         </div>
     )
 }
